@@ -61,6 +61,42 @@ const env = createEnv(schema, {
 });
 ```
 
+## API Reference
+
+### `createEnv<S extends Schema>(schema: S, source?: Record<string, string | undefined>): InferEnv<S>`
+
+Validates environment variables against the given schema and returns a type-safe object. Throws `EnvValidationError` if any validation fails. If `source` is omitted, reads from `process.env`.
+
+### `Schema`
+
+A record mapping variable names to `FieldConfig` objects:
+
+```ts
+type Schema = Record<string, FieldConfig>;
+```
+
+### `FieldConfig`
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `type` | `'string' \| 'number' \| 'boolean' \| 'url' \| 'email' \| 'enum' \| 'port' \| 'json'` | Validation type. |
+| `required` | `boolean` | Whether the variable must be present. Default: `false`. |
+| `default` | Varies by type | Default value if missing. Makes the field effectively required in the output type. |
+| `values` | `readonly string[]` | (enum only) Allowed values. |
+
+### `EnvValidationError`
+
+Thrown when one or more variables fail validation.
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `message` | `string` | Human-readable summary of all failures. |
+| `errors` | `string[]` | Array of individual error messages. |
+
+### `InferEnv<S>`
+
+TypeScript utility type that infers the output type from a schema. Required fields and fields with defaults are non-optional; others are optional.
+
 ## License
 
 MIT
