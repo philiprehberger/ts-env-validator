@@ -1,17 +1,17 @@
-# @philiprehberger/env-validator
+# @philiprehberger/ts-env-validator
 
 Schema-based environment variable validation with type-safe accessors.
 
 ## Installation
 
 ```bash
-npm install @philiprehberger/env-validator
+npm install @philiprehberger/ts-env-validator
 ```
 
 ## Usage
 
 ```ts
-import { createEnv } from '@philiprehberger/env-validator';
+import { createEnv } from '@philiprehberger/ts-env-validator';
 
 const env = createEnv({
   DATABASE_URL: { type: 'url', required: true },

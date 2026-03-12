@@ -1,5 +1,5 @@
 {
-  "name": "@philiprehberger/env-validator",
+  "name": "@philiprehberger/ts-env-validator",
   "version": "0.2.0",
   "description": "Schema-based environment variable validation with type-safe accessors",
   "type": "module",
@@ -43,11 +43,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philiprehberger/env-validator.git"
+    "url": "git+https://github.com/philiprehberger/ts-env-validator.git"
   },
-  "homepage": "https://github.com/philiprehberger/env-validator#readme",
+  "homepage": "https://github.com/philiprehberger/ts-env-validator#readme",
   "bugs": {
-    "url": "https://github.com/philiprehberger/env-validator/issues"
+    "url": "https://github.com/philiprehberger/ts-env-validator/issues"
   },
   "author": "Philip Rehberger",
   "engines": {
