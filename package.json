@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/env-validator",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Schema-based environment variable validation with type-safe accessors",
   "type": "module",
   "main": "./dist/index.cjs",
