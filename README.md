@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/env-validator.svg)](https://www.npmjs.com/package/@philiprehberger/env-validator)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-env-validator)](LICENSE)
 
-Schema-based environment variable validation with type-safe accessors.
+Schema-based environment variable validation with type-safe accessors
 
 ## Installation
 
@@ -65,7 +65,7 @@ const env = createEnv(schema, {
 });
 ```
 
-## API Reference
+## API
 
 ### `createEnv<S extends Schema>(schema: S, source?: Record<string, string | undefined>): InferEnv<S>`
 
