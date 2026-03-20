@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.4
+
+- Add badges and development section to README
+
 ## 0.2.3
 
 - Fix npm package name references in README
