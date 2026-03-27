@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/ts-env-validator/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-env-validator/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/env-validator.svg)](https://www.npmjs.com/package/@philiprehberger/env-validator)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-env-validator)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Schema-based environment variable validation with type-safe accessors
 
