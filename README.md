@@ -1,9 +1,8 @@
 # @philiprehberger/env-validator
 
-[![CI](https://github.com/philiprehberger/ts-env-validator/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-env-validator/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/env-validator/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/env-validator/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/env-validator.svg)](https://www.npmjs.com/package/@philiprehberger/env-validator)
-[![License](https://img.shields.io/github/license/philiprehberger/ts-env-validator)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/env-validator)](https://github.com/philiprehberger/env-validator/commits/main)
 
 Schema-based environment variable validation with type-safe accessors
 
@@ -110,6 +109,24 @@ npm run build
 npm test
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/env-validator)
+
+🐛 [Report issues](https://github.com/philiprehberger/env-validator/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/env-validator/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
